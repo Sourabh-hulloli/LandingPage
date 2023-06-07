@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+  header {
+    text-align: center;
+  }
+  .container {
+    flex-flow: column wrap;
+  }
+  header > nav > ul > li {
+    display: block;
+  }
+
+  /* Margin and Padding */
+  .mx-100 {
+    margin: auto 50px;
+  }
+  .my-100 {
+    margin: 50px auto;
+  }
+  .my-50 {
+    margin: 25px auto;
+  }
+}
